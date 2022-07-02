@@ -1,6 +1,8 @@
+#include <stdlib.h>
 #include <stdio.h>
-#include <stdlib.>
-/* this program prints possible outputs for n  */
+#include <time.h>
+
+/* more headers goes there */
 
 int main(void)
 
@@ -13,7 +15,6 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-
 	{
 		printf("%d is positive\n", n);
 	}
@@ -28,4 +29,4 @@ int main(void)
 
 	return (0);
 
-
+}

@@ -2,7 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 
-/* more headers goes there */
+/**
+ * Main: produve void output
+ *
+ * Description: code to print posible
+ * negative and positine numbers of n
+ */
 
 int main(void)
 

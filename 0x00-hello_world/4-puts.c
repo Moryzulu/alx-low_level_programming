@@ -1,6 +1,10 @@
-/* my first script on C using the command puts instead of printf */
 #include <stdio.h>
 
+/**
+  * main - Prints a text
+  *
+  * Return: Always 0 (Success)
+  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

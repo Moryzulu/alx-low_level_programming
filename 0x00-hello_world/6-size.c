@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
   * main - Prints the sizeof many var types
+  * creating code thet outputs binary nummers
   *
   * Return: Always 0 (Success)
-  *creating code that outputs binary numbers */
+  */
 int main(void)
 {
 	int a;

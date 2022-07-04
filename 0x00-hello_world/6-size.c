@@ -1,6 +1,9 @@
 #include <stdio.h>
-
-/* creating code that outputs binary numbers */
+/**
+  * main - Prints the sizeof many var types
+  *
+  * Return: Always 0 (Success)
+  *creating code that outputs binary numbers */
 int main(void)
 {
 	int a;

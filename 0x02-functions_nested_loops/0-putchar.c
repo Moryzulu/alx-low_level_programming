@@ -1,19 +1,21 @@
 #include <stdio.h>
-/*
- * main - function returns nothing
- *
- * Return: 0 returns
- */
+/**
+  * main - function void
+  *Description: fuction to print putchar
+  * Return: 0 return
+  */
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('u');
-	putchar('r');
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('u');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }
+

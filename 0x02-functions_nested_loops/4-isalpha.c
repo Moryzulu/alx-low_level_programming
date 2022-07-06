@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - int c to chech alphabet charactor
- *
+ * c: argument for prototype
  * Return: 1 for alphabetic character or 0
  */
 int _isalpha(int c)

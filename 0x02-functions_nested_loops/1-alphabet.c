@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Main - function void
+ * print_alphabet - function void
  *
  * Return: o returns
  */

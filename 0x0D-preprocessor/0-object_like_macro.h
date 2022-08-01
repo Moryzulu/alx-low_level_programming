@@ -1,3 +1,3 @@
-#ifndef HEADER_H
+#ifndef SIZE
 #define SIZE 1024
-#endif /* HEADER_H */
+#endif

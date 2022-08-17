@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1660767724,,"wq"
+|2,0,1660768295,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -52,22 +52,44 @@
 |3,0,9,1,1,0,1660767607,"typedef struct list_s"
 
 # File marks:
-'0  23  0  ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
-|4,48,23,0,1660767724,"~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c"
-'1  1  25  /.git/COMMIT_EDITMSG
-|4,49,1,25,1660766333,"/.git/COMMIT_EDITMSG"
+'0  2  0  ~/.git/COMMIT_EDITMSG
+|4,48,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
+'1  23  0  ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
+|4,49,23,0,1660767724,"~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c"
+'2  1  25  /.git/COMMIT_EDITMSG
+|4,50,1,25,1660766333,"/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660768282,"~/.git/COMMIT_EDITMSG"
 -'  23  0  ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
 |4,39,23,0,1660767724,"~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c"
+-'  23  0  ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
+|4,39,23,0,1660767724,"~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c"
+-'  1  0  ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
+|4,39,1,0,1660767596,"~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c"
 -'  1  0  ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
 |4,39,1,0,1660767596,"~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c"
 -'  1  25  /.git/COMMIT_EDITMSG
 |4,39,1,25,1660766333,"/.git/COMMIT_EDITMSG"
 -'  1  25  /.git/COMMIT_EDITMSG
 |4,39,1,25,1660766333,"/.git/COMMIT_EDITMSG"
+-'  1  25  /.git/COMMIT_EDITMSG
+|4,39,1,25,1660766333,"/.git/COMMIT_EDITMSG"
+-'  1  25  /.git/COMMIT_EDITMSG
+|4,39,1,25,1660766333,"/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1660768293	0
+	"	2	0
+	^	2	0
+	.	1	5
+	+	1	5
+	m	1	0
 
 > ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
 	*	1660767722	0

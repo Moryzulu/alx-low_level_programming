@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1660770715,,"wq"
+|2,0,1660771253,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -24,258 +24,281 @@
 
 # Registers:
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1660770667,""
+	#include "lists.h"
+|3,1,1,1,1,0,1660771247,"#include \"lists.h\""
 "2	LINE	0
-	} list_t;
-|3,0,2,1,1,0,1660770667,"} list_t;"
+	
+|3,0,2,1,1,0,1660771247,""
 "3	LINE	0
-	    struct list_s *next;
-|3,0,3,1,1,0,1660770667,"    struct list_s *next;"
+	/**
+|3,0,3,1,1,0,1660771247,"/**"
 "4	LINE	0
-	    unsigned int len;
-|3,0,4,1,1,0,1660770667,"    unsigned int len;"
+	 * _strlen - counts the lenght of a string
+|3,0,4,1,1,0,1660771247," * _strlen - counts the lenght of a string"
 "5	LINE	0
-	    char *str;
-|3,0,5,1,1,0,1660770667,"    char *str;"
+	 * @str: string to be counted
+|3,0,5,1,1,0,1660771247," * @str: string to be counted"
 "6	LINE	0
-	{
-|3,0,6,1,1,0,1660770667,"{"
+	 * Return: len of a string
+|3,0,6,1,1,0,1660771246," * Return: len of a string"
 "7	LINE	0
-	typedef struct list_s
-|3,0,7,1,1,0,1660770667,"typedef struct list_s"
-"8	LINE	0
 	 */
-|3,0,8,1,1,0,1660770666," */"
+|3,0,7,1,1,0,1660771246," */"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1660771246,""
 "9	LINE	0
-	 * Description: singly linked list node structure
-|3,0,9,1,1,0,1660770666," * Description: singly linked list node structure"
+	int _strlen(const char *str)
+|3,0,9,1,1,0,1660771246,"int _strlen(const char *str)"
 
 # File marks:
-'0  23  0  ~/0x12-singly_linked_lists/4-free_list.c
-|4,48,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
-'1  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
-|4,49,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
-'2  41  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,50,41,0,1660770365,"~/0x12-singly_linked_lists/2-add_node.c"
-'3  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,51,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
-'4  24  0  ~/0x12-singly_linked_lists/1-
-|4,52,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
-'5  1  22  ~/.git/COMMIT_EDITMSG
-|4,53,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
-'6  2  0  ~/.git/COMMIT_EDITMSG
-|4,54,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
+'0  51  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,48,51,0,1660771253,"~/0x12-singly_linked_lists/2-add_node.c"
+'1  1  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,49,1,0,1660771150,"~/0x12-singly_linked_lists/2-add_node.c"
+'2  44  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,50,44,0,1660771150,"~/0x12-singly_linked_lists/2-add_node.c"
+'3  1  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,51,1,0,1660770923,"~/0x12-singly_linked_lists/2-add_node.c"
+'4  1  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,52,1,0,1660770923,"~/0x12-singly_linked_lists/2-add_node.c"
+'5  1  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,53,1,0,1660770923,"~/0x12-singly_linked_lists/2-add_node.c"
+'6  5  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,54,5,0,1660770923,"~/0x12-singly_linked_lists/2-add_node.c"
 '7  2  0  ~/.git/COMMIT_EDITMSG
-|4,55,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
-'8  23  0  ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
-|4,56,23,0,1660767724,"~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c"
-'9  1  25  /.git/COMMIT_EDITMSG
-|4,57,1,25,1660766333,"/.git/COMMIT_EDITMSG"
+|4,55,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+'8  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,56,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+'9  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,57,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
 
 # Jumplist (newest first):
+-'  51  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,39,51,0,1660771253,"~/0x12-singly_linked_lists/2-add_node.c"
+-'  1  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,39,1,0,1660771240,"~/0x12-singly_linked_lists/2-add_node.c"
+-'  44  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,39,44,0,1660771150,"~/0x12-singly_linked_lists/2-add_node.c"
+-'  1  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,39,1,0,1660771138,"~/0x12-singly_linked_lists/2-add_node.c"
+-'  5  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,39,5,0,1660770923,"~/0x12-singly_linked_lists/2-add_node.c"
+-'  41  0  ~/0x12-singly_linked_lists/2-add_node.c
+|4,39,41,0,1660770907,"~/0x12-singly_linked_lists/2-add_node.c"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1660770776,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660770738,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660770738,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660770738,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660770738,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660770738,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660770738,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660770738,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1660770738,"~/.git/COMMIT_EDITMSG"
 -'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
 |4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  23  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,23,0,1660770715,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
+-'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
+|4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
 -'  1  0  ~/0x12-singly_linked_lists/4-free_list.c
 |4,39,1,0,1660770662,"~/0x12-singly_linked_lists/4-free_list.c"
 -'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
 |4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
 -'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
 |4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  38  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,38,0,1660770607,"~/0x12-singly_linked_lists/3-add_node_end.c"
 -'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
 |4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
 -'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
 |4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
--'  41  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,39,41,0,1660770365,"~/0x12-singly_linked_lists/2-add_node.c"
--'  41  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,39,41,0,1660770365,"~/0x12-singly_linked_lists/2-add_node.c"
--'  41  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,39,41,0,1660770365,"~/0x12-singly_linked_lists/2-add_node.c"
--'  41  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,39,41,0,1660770365,"~/0x12-singly_linked_lists/2-add_node.c"
--'  1  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,39,1,0,1660770348,"~/0x12-singly_linked_lists/2-add_node.c"
--'  1  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,39,1,0,1660770348,"~/0x12-singly_linked_lists/2-add_node.c"
--'  1  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,39,1,0,1660770348,"~/0x12-singly_linked_lists/2-add_node.c"
--'  1  0  ~/0x12-singly_linked_lists/2-add_node.c
-|4,39,1,0,1660770348,"~/0x12-singly_linked_lists/2-add_node.c"
--'  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
--'  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
--'  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
--'  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
--'  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
--'  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
--'  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
--'  24  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,24,0,1660770212,"~/0x12-singly_linked_lists/1-list_len.c"
--'  1  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,1,0,1660770118,"~/0x12-singly_linked_lists/1-list_len.c"
--'  1  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,1,0,1660770118,"~/0x12-singly_linked_lists/1-list_len.c"
--'  1  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,1,0,1660770118,"~/0x12-singly_linked_lists/1-list_len.c"
--'  1  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,1,0,1660770118,"~/0x12-singly_linked_lists/1-list_len.c"
--'  1  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,1,0,1660770118,"~/0x12-singly_linked_lists/1-list_len.c"
--'  1  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,1,0,1660770118,"~/0x12-singly_linked_lists/1-list_len.c"
--'  1  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,1,0,1660770118,"~/0x12-singly_linked_lists/1-list_len.c"
--'  1  0  ~/0x12-singly_linked_lists/1-list_len.c
-|4,39,1,0,1660770118,"~/0x12-singly_linked_lists/1-list_len.c"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  24  0  ~/0x12-singly_linked_lists/1-
-|4,39,24,0,1660770062,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  0  ~/0x12-singly_linked_lists/1-
-|4,39,1,0,1660769993,"~/0x12-singly_linked_lists/1-"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  1  22  ~/.git/COMMIT_EDITMSG
-|4,39,1,22,1660769374,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1660768295,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
+-'  1  0  ~/0x12-singly_linked_lists/3-add_node_end.c
+|4,39,1,0,1660770383,"~/0x12-singly_linked_lists/3-add_node_end.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/0x12-singly_linked_lists/2-add_node.c
+	*	1660771251	0
+	"	51	0
+	^	51	1
+	.	51	0
+	+	1	18
+	+	1	0
+	+	1	18
+	+	1	19
+	+	51	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1660770773	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	5
+	+	2	8
+	+	1	22
+	+	2	0
+	i	1	0
+	m	2	0
 
 > ~/0x12-singly_linked_lists/4-free_list.c
 	*	1660770696	0
@@ -293,14 +316,6 @@
 	+	1	19
 	+	63	0
 
-> ~/0x12-singly_linked_lists/2-add_node.c
-	*	1660770364	0
-	"	41	0
-	^	41	1
-	.	41	0
-	+	1	18
-	+	41	0
-
 > ~/0x12-singly_linked_lists/1-list_len.c
 	*	1660770210	0
 	"	24	0
@@ -315,16 +330,6 @@
 	^	24	1
 	.	24	0
 	+	24	0
-
-> ~/.git/COMMIT_EDITMSG
-	*	1660769369	0
-	"	1	22
-	^	1	23
-	.	1	22
-	+	1	5
-	+	2	8
-	+	1	22
-	m	2	7
 
 > ~/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
 	*	1660767722	0

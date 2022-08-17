@@ -1,18 +1,23 @@
-#include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 #include "lists.h"
-/**
- * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- */
-typedef struct list_s
-{
-    char *str;
-    unsigned int len;
-    struct list_s *next;
-} list_t;
 
+/**
+  * free_list - Frees a linked list.
+  * @head: The pointer to the first node of linked list
+  *
+  * Return: Nothing
+  */
+void free_list(list_t *head)
+{
+	list_t *temp;
+
+	while (head)
+	{
+		temp = head;
+		head = head->next;
+		free(temp->str);
+		free(temp);
+	}
+
+	free(head);
+}

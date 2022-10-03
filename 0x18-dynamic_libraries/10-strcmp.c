@@ -6,18 +6,9 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int n;
+	int i = 0;
 
-	if (s1 == s2)
-	{
-		return(0);
-	}
-	else if (s1 < s2)
-	{
-		return(n < 0);
-	}
-	else 
-	{
-		return (n > 0);
-	}	
+	while (*(s1 + i) && *(s2 + i) && (*(s1 + i) == *(s2 + i)))
+		i++;
+	return (*(s1 + i) - *(s2 + i));
 }
